@@ -12,3 +12,4 @@
 // 369. Void and Never
 // 370. Destructuring with Annotations
 // 371. Annotations and Objects
+// 372. Arrays in TypeScript
