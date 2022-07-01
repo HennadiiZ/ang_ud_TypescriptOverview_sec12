@@ -29,3 +29,13 @@ let car: Car = new Car();
 //Object literal 
 let point: { x: number; y: number } = { x: 0, y: 0 };
 let pointStr: { x: string; y: string  } = { x: "hey", y: "hoy" };
+
+// 360. Annotations Around Functions
+// Function
+const logNumber = (i: number) => { // js
+    console.log(i);
+};
+
+const logNumberMore: (i: number) => void = (i: number) => { // ts
+    console.log(i);
+};
