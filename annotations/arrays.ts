@@ -19,3 +19,15 @@ const carsByMake: string[][]  = [
     ['corolla'],
     ['camaro']
 ];
+
+// 373. Why Typed Arrays?
+//help with inference when extracting values 
+const car = carMakers[0];
+const myCar = carMakers.pop(); 
+
+// prevent incompatible values 
+//carMakers.push(100); // mistake
+
+carMakers.map((car: string) => {
+
+});

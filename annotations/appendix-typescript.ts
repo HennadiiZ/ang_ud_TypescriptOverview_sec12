@@ -13,3 +13,4 @@
 // 370. Destructuring with Annotations
 // 371. Annotations and Objects
 // 372. Arrays in TypeScript
+// 373. Why Typed Arrays?
