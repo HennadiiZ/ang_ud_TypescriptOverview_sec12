@@ -55,3 +55,5 @@ console.log(coordinatesMore);
 // 365. When Inference Doesn't Work
 // 3) Variable whose type cannot be inferred correctly 
 let numAboveZero: boolean | number = false; // <=== here num above zero or false;
+
+// 366. Annotations Around Functions
