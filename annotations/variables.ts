@@ -50,3 +50,8 @@ console.log(coordinates); // {x : 10, y : 20};
 
 const coordinatesMore: { x: number, y: number } = JSON.parse(json);
 console.log(coordinatesMore);
+// 364. Delayed Initialization
+// 2) When we declare a variable on one line and initalizate it later
+// 365. When Inference Doesn't Work
+// 3) Variable whose type cannot be inferred correctly 
+let numAboveZero: boolean | number = false; // <=== here num above zero or false;
