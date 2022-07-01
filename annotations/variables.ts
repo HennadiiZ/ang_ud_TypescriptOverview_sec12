@@ -56,4 +56,4 @@ console.log(coordinatesMore);
 // 3) Variable whose type cannot be inferred correctly 
 let numAboveZero: boolean | number = false; // <=== here num above zero or false;
 
-// 366. Annotations Around Functions
+
