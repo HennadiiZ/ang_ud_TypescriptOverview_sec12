@@ -27,3 +27,27 @@ const throwErrorMore = (message: string): void => {
         throw new Error(message);
     }
 }
+
+// 370. Destructuring with Annotations
+const todaysWeather = {
+    date: new Date(),
+    weather: 'sunny'
+};
+const logWeather = (forecast: { date: Date, weather: string }): void => {
+    console.log(forecast);
+    console.log(forecast.date);
+    console.log(forecast.weather);
+};
+
+logWeather(todaysWeather);
+
+//ES2015
+const logWeatherJS = ( { date, weather } ) => {
+    //...
+};
+
+//TS
+const logWeatherTS = ( { date, weather }: { date: Date, weather: string }): void => {
+    console.log( date);
+    console.log( weather);
+};

@@ -10,3 +10,4 @@
 // 366. Annotations Around Functions
 // 367.+ 368. Inference Around Functions +  Annotations for Anonymous Functions
 // 369. Void and Never
+// 370. Destructuring with Annotations
