@@ -20,3 +20,4 @@
 
 // 379+380+381 Interfaces + Long Type Annotations + Fixing Annotations With Interfaces
 // 382. Syntax Around Interfaces
+// 383. Functions in Interfaces

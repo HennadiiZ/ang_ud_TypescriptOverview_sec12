@@ -46,3 +46,24 @@ const printVehecleMoreMore = (vehicle: carInfoSum): void => {
     console.log(vehicle);
 }
 printVehecleMoreMore(oldCadilac);
+
+
+
+// 383. Functions in Interfaces
+interface carSum {
+    summary(): string;
+}
+
+const cadilac = {
+    name: 'Cadilac',
+    year: 2000,
+    broken: true,
+    summary(): string {
+      return this.name;
+    }
+};
+
+const vehecle = (vehicle: carSum): void => {
+    console.log(vehicle.summary());
+}
+vehecle(cadilac);
