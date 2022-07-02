@@ -26,3 +26,5 @@
 
 // 386+387 Classes + Basic Inheritance
 // 388. Class Method Modifiers (public, private, protected)
+// 389. Fields in Classes
+//
