@@ -50,7 +50,7 @@ printVehecleMoreMore(oldCadilac);
 
 
 // 383. Functions in Interfaces
-interface carSum {
+interface Reportable {
     summary(): string;
 }
 
@@ -63,7 +63,22 @@ const cadilac = {
     }
 };
 
-const vehecle = (vehicle: carSum): void => {
+const vehecle = (vehicle: Reportable): void => {
     console.log(vehicle.summary());
 }
 vehecle(cadilac);
+
+// 384. Code Reuse with Interfaces
+const drink = {
+    color: 'brown',
+    carbonated: true,
+    sugar: 40,
+    summary() {
+        return this.sugar;
+    }
+}
+
+const thirsty = (drink: Reportable): void => {
+    console.log(drink.summary());
+}
+thirsty(drink);
