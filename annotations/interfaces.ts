@@ -13,12 +13,36 @@ printVehecle(oldCivic);
 // 381. Fixing Annotations With Interfaces
 
 interface carInfo {
-    name: string, 
-    year: number, 
-    broken: boolean
+    name: string;
+    year: number;
+    broken: boolean;
 }
 
 const printVehecleMore = (vehicle: carInfo): void => {
     console.log(vehicle);
 }
 printVehecleMore(oldCivic);
+
+
+
+// 382. Syntax Around Interfaces
+
+const oldCadilac = {
+    name: 'Cadilac',
+    year: 2000,
+    broken: true,
+    summary(): string {
+      return this.name;
+    }
+};
+interface carInfoSum {
+    name: string;
+    year: number;
+    broken: boolean;
+    summary(): string;
+}
+
+const printVehecleMoreMore = (vehicle: carInfoSum): void => {
+    console.log(vehicle);
+}
+printVehecleMoreMore(oldCadilac);
