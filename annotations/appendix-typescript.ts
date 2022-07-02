@@ -25,3 +25,4 @@
 // 385. General Plan with Interfaces
 
 // 386+387 Classes + Basic Inheritance
+// 388. Class Method Modifiers (public, private, protected)
