@@ -77,3 +77,35 @@ class Vehicle4 {
         console.log('beep');
     }
 }
+
+// 390. Fields with Inheritance
+class Vehicle390 {
+    constructor( public color: string ) {
+    }
+
+    protected honk(): void {
+        console.log('beep');
+    }
+}
+
+class Car390 extends Vehicle390 {
+
+    constructor( public wheels: number, public color: string ) {
+        // super('red');
+        super(color);
+    }
+
+    private drive(): void  {
+        console.log('vroom');
+    }
+
+    startDrivingProcess(): void {
+        this.drive();
+        this.honk(); // cannot use if private. protected can use.
+    }
+}
+const car390 = new Car390( 4, 'black' );
+
+// 391. Where to Use Classes
+
+// 2h 25min

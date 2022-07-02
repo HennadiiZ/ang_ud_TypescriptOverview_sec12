@@ -27,4 +27,5 @@
 // 386+387 Classes + Basic Inheritance
 // 388. Class Method Modifiers (public, private, protected)
 // 389. Fields in Classes
-//
+// 390. Fields with Inheritance + 391. Where to Use Classes
+// 2h 25min
