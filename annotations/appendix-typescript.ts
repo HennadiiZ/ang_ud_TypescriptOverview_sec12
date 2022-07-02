@@ -14,5 +14,6 @@
 // 371. Annotations and Objects
 // 372. Arrays in TypeScript
 // 373. Why Typed Arrays?
-
 // 374. + 375. Multiple Types in Arrays +  When to Use Typed Arrays
+
+// 376+377+378 Tuples in TypeScript + Tuples in Action + Why Tuples?
