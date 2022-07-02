@@ -31,3 +31,8 @@ const myCar = carMakers.pop();
 carMakers.map((car: string) => {
 
 });
+
+// 374. Multiple Types in Arrays
+// flexible types 
+
+const importantDates: (Date | string)[] = [ new Date(), 'hey'];
