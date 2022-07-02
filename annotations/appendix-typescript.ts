@@ -22,3 +22,6 @@
 // 382. Syntax Around Interfaces
 // 383. Functions in Interfaces
 // 384. Code Reuse with Interfaces
+// 385. General Plan with Interfaces
+
+// 386+387 Classes + Basic Inheritance
